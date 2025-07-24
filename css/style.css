@@ -8,6 +8,7 @@
   --hero-button-bg: rgba(223, 217, 217, 0.80);
   --hero-button-text: rgba(11, 11, 11, 0.70);
   --gray-border: #DDE1E6;
+  --brown: #313131;
 }
 
 * {
@@ -243,7 +244,7 @@
   justify-content: start;
 }
 
-.header-ul li a {
+.header-ul li .header-ancor {
   color: var(--primary-light);
   font-family: Roboto;
   font-size: 16px;
@@ -400,34 +401,27 @@ h1 {
 }
 
 .partner-span {
-  color: #313131;
   text-align: center;
+  text-transform: uppercase;
+  color: var(--brown);
   font-family: Roboto;
   font-size: 20px;
-  font-style: normal;
   font-weight: 700;
-  line-height: 100%;
-  letter-spacing: 1px;
-  text-transform: uppercase;
 }
 
 .partner-heading {
-  color: var(--CoolGray-90, #21272A);
   text-align: center;
+  color: var(--text-dark);
   font-family: Roboto;
   font-size: 42px;
-  font-style: normal;
   font-weight: 700;
-  line-height: 110%;
 }
 
 .content-img-part {
-  color: #455A64;
+  color: var(--primary);
   font-family: Roboto;
   font-size: 24px;
-  font-style: normal;
   font-weight: 700;
-  line-height: 110%;
 }
 
 .partner-head {
@@ -445,12 +439,11 @@ h1 {
 }
 
 .partner-para {
-  color: var(--CoolGray-90, #21272A);
   text-align: center;
+  color: var(--text-dark);
   font-family: Roboto;
   font-size: 18px;
   font-weight: 400;
-  line-height: 140%;
 }
 
 .icon {
@@ -466,23 +459,19 @@ h1 {
 }
 
 .jop {
-  color: var(--CoolGray-90, #21272A);
   text-align: center;
+  color: var(--text-dark);
   font-family: Roboto;
   font-size: 24px;
-  font-style: normal;
   font-weight: 700;
-  line-height: 110%;
 }
 
 .name {
-  color: var(--CoolGray-90, #21272A);
   text-align: center;
+  color: var(--text-dark);
   font-family: Roboto;
   font-size: 18px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 140%;
 }
 
 .pading {
@@ -494,13 +483,11 @@ h1 {
 }
 
 .home {
-  color: #455A64;
+  padding-bottom: 32px;
+  color: var(--primary);
   font-family: Roboto;
   font-size: 32px;
-  font-style: normal;
   font-weight: 700;
-  line-height: 110%; /* 35.2px */
-  padding-bottom: 32px;
 }
 
 .home-item {
@@ -521,31 +508,27 @@ h1 {
   justify-content: center;
   align-items: center;
   align-self: stretch;
-  border: 1px solid #455A64;
-  color: #455A64;
-  font-family: Roboto;
-  font-size: 18px;
-  font-style: normal;
+  border: 1px solid var(--primary);
   font-weight: 700;
   min-width: 305px;
+  color: var(--primary);
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
 }
 
 .name-hom {
   color: #000;
   font-family: Roboto;
   font-size: 20px;
-  font-style: normal;
   font-weight: 700;
-  line-height: 110%; /* 22px */
 }
 
 .disc-hom {
   color: #000;
   font-family: Roboto;
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 110%; /* 15.4px */
 }
 
 .home-details {
@@ -555,21 +538,44 @@ h1 {
 }
 
 .price {
-  color: #455A64;
+  color: var(--primary);
   font-family: Roboto;
   font-size: 20px;
-  font-style: normal;
   font-weight: 700;
-  line-height: 110%;
 }
 
 .space {
   color: #000;
   font-family: Roboto;
   font-size: 18px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 110%; /* 19.8px */
+}
+
+/*--------FOOTER-----------*/
+.footer {
+  padding: 24px 80px 48px 80px;
+  background: var(--primary);
+}
+
+.header-ul li .footer-ancor {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.para-footer {
+  text-align: center;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.gap-48 {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
 }
 
 /*# sourceMappingURL=style.css.map */
